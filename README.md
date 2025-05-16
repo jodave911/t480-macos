@@ -9,7 +9,7 @@ This repository contains the EFI and support files used to boot macOS on a Lenov
 
 ## ✨ Features
 
-- Supports macOS Ventura / Monterey / Big Sur
+- Supports macOS Sequoia / Sonoma / Ventura / Monterey / Big Surg
 - Native CPU power management
 - Intel UHD 620 Graphics acceleration (with platform-id patching)
 - Working Wi-Fi, Bluetooth, Audio, Battery, and Sleep
@@ -23,13 +23,13 @@ This repository contains the EFI and support files used to boot macOS on a Lenov
 | Component       | Model / Info                     |
 |----------------|----------------------------------|
 | Laptop         | Lenovo ThinkPad T480             |
-| CPU            | Intel Core i5/i7 8th Gen (U-series) |
+| CPU            | Intel Core i7 8th Gen (U-series) |
 | iGPU           | Intel UHD Graphics 620           |
-| RAM            | 8GB / 16GB DDR4                  |
-| Storage        | SSD (NVMe/SATA)                  |
-| Wi-Fi          | Intel/Broadcom (modded for macOS) |
+| RAM            | 12GB DDR4                        |
+| Storage        | 350GB SSD                        |
+| Wi-Fi          | Intel (Native t480 Intel Card)   |
 | Audio          | Realtek ALC257                   |
-| macOS Version  | Ventura / Monterey / Big Sur     |
+| macOS Version  | Sequoia                          |
 
 
 
@@ -45,7 +45,7 @@ This repository contains the EFI and support files used to boot macOS on a Lenov
 ## ⚙️ What's Working
 
 - ✅ Graphics Acceleration (UHD 620)
-- ✅ Wi-Fi & Bluetooth (with compatible card)
+- ✅ Wi-Fi & Bluetooth (with compatible card) used Heliport
 - ✅ Trackpad, Keyboard, Brightness
 - ✅ USB Mapping
 - ✅ Audio Output/Input
@@ -58,8 +58,7 @@ This repository contains the EFI and support files used to boot macOS on a Lenov
 
 ## 🚫 Known Issues
 
-- ❌ HDMI audio might need additional tweaking
-- ❌ FaceTime/iMessage requires valid SMBIOS and Apple ID setup
+- ❌ Didn't face any issue as of yet
 
 ---
 
@@ -79,6 +78,7 @@ This repository contains the EFI and support files used to boot macOS on a Lenov
 
 ## 🛠 Credits
 
+- [Valnoxy](https://github.com/valnoxy/t480-oc)
 - [Dortania OpenCore Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [Acidanthera](https://github.com/acidanthera)
 - Community contributions from Hackintosh forums and GitHub
